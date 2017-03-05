@@ -23,7 +23,7 @@ List of variables in the training data:
        'YrSold', 'SaleType', 'SaleCondition', 'SalePrice'], dtype=object
        
 To-do:
-# Predict SalePrice
-# Determine what variables to use
-# Try different machine learning algorithms
+1. Predict SalePrice
+2. Determine what variables to use
+3. Try different machine learning algorithms
 
