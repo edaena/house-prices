@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn import linear_model
 
 # Read the train data
-train = pd.read_csv("train.csv", header=0, delimiter=",")
+train = pd.read_csv("../train.csv", header=0, delimiter=",")
 
 # The following are useful commands to explore the data
 # print train: prints the entire dataframe
@@ -22,7 +22,7 @@ train = pd.read_csv("train.csv", header=0, delimiter=",")
 featureNames = ['LotArea', 'FullBath', 'Fireplaces', 'PoolArea', 'YearBuilt', '1stFlrSF', '2ndFlrSF']
 
 # Read test data
-test = pd.read_csv("test.csv", header=0, delimiter=",")
+test = pd.read_csv("../test.csv", header=0, delimiter=",")
 
 # Prepare the data with only the relevant columns
 # A key component of pandas is the dataframe
