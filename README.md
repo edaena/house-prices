@@ -1,5 +1,5 @@
-# house-prices
-Predict house prices
+# House Prices Predictions
+Use machine learning to predict house prices.
 
 List of variables in the training data:
 
