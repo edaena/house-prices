@@ -27,3 +27,27 @@ To-do:
 2. Determine what variables to use
 3. Try different machine learning algorithms
 
+## Linear Regression
+The training and testing data contains information that may or may not be useful for predicting the price. Looking at the data, 'LotArea', 'FullBath', 'Fireplaces', 'PoolArea', 'YearBuilt', '1stFlrSF', '2ndFlrSF' are attributes of a house that can be related to the cost. 
+
+Coming from north Mexico, PoolArea seemed to me to be the best candidate =D.
+
+To run the models:
+```
+python LinearRegression.py
+```
+
+### Results
+A total of 7 linear regression models were trained. One for each feature mentioned above. The models were submitted on Kaggle. The table below shows the value for the squared logarithmic error for each model.
+
+Feature | squared logarithmic error
+------------ | -------------
+1stFlrSF | 0.33200
+YearBuilt | 0.33743
+FullBath | 0.34693
+FirePlaces | 0.37061
+2ndFlrSF | 0.41407
+LotArea | 0.41600
+PoolArea | 0.42964
+
+The smallest squared logarithmic error was from the 1stFlrSF model which represents the square feet of the 1st floor.
